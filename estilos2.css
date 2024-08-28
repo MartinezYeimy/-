@@ -1,0 +1,39 @@
+body {
+    background-image: url(img.fond.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+header {
+    background-color: #37919c;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.form-container {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1em 0;
+}
+.social-media {
+    margin: 1em 0;
+}
+.social-media a {
+    margin: 0 1em;
+    text-decoration: none;
+}
